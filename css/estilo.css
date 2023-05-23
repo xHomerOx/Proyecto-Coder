@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Philosopher;
+}
+nav h5{
+    color: #FAE100;
+    font-size: 30px;
+}
+.my-class .nav-item a{
+    color: #ffffff;
+    margin: 12px;
+    font-size: 20px;
+}
+
+.my-class a:hover{
+    color: black;
+    background-color: #FAE100;
+    border-radius: 5px;
+}
+.mi-letra li a{
+    font-family: Philosopher;
+}
+.home-inicio{
+    background-color: black;
+    background-image: url(/imagenes/_DSC6746.jpg);
+
+    background-size: cover ;
+    height: 690px;
+}
+.titular-inicio{
+    margin: 30px ;
+    margin-top: 20vh ;
+    color: #fff;
+}
+.titular-inicio h1{
+    font-size: 50px;
+    margin-top: 190px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    background-color: #0e0d0d57;
+    width: 70%;
+    padding: 10px;
+}
+.boton-inicio a{
+    margin-left: 30px;
+}
+.boton-inicio a, .discografia-inicio a{
+    color: #111;
+    background-color: #FAE100;
+    text-decoration: none;
+    padding: 8px 15px;
+    line-height: 50px;
+    border-radius: 20px ;
+}
+.amarillo-inicio{
+    color: #FAE100;
+    border-radius: 9px;
+}
+.discografia-inicio{
+    background-color: black;
+    color: #fff;
+    padding: 60px 0;
+}
+.discografia-inicio .contenedor-inicio{
+    display: flex;
+    align-items: center;
+}
+.discografia-inicio h4{
+    color: #FAE100;
+    border: 1px gray solid;
+    font-size: 20px;
+    width: 110px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.discografia-inicio .texto-inicio{
+
+    width: 50%;
+    margin-left: 70px;
+}
+.discografia-inicio p{
+    font-size: 16px;
+    margin: 2px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.discografia-inicio .foto-inicio{
+    width: 50%;
+    margin: 30px;
+
+}
+.contenedor-textos-inicio{
+    display: flex;
+    padding: 40px 40px;
+}
+.about-inicio h4{
+    color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 99px;
+    margin-left: 35px;
+}
+.about-inicio .contenedor-inicio{
+    margin: 30px 20px;
+}
+.about-inicio p{
+    font-family: Anonymous Pro;
+}
+.negro-inicio{
+    background-color: #6d6c6c !important;
+}
+.tour-inicio{
+    background-color: #FAE100;
+    padding: 60px 0;
+}
+.tour-inicio .contenedor-inicio{
+    display: flex;
+    justify-content: space-around;
+}
+.tour-inicio img{
+    width: 100%;
+}
+.tour-inicio .texto-inicio{
+    width: 50%;
+}
+.tour-inicio .imagen-inicio{
+    width: 30%;
+    position: relative;
+    top: -150px;
+}
+.tour-inicio p, .tour-inicio h2{
+    padding: 20px 0;
+}
+.tour-inicio h4, .miembros-nosotros h6{
+    color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.fechas-inicio{
+    display: flex;
+    justify-content: space-around;
+    width: 78%;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #cccccc93;
+    padding-bottom: 30px;
+}
+.fechas-inicio .numero-inicio{
+    font-size: 35px;
+}
+.fechas-inicio h3,.fechas-inicio p{
+    margin: 0;
+}
+.fechas-inicio h3{
+    font-size: 20px;
+}
+.fechas-inicio a{
+    background-color: #fff;
+    color: #111;
+    padding: 15px 30px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+footer svg{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer p{
+    margin-top: 6px;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+}
+@media (max-width: 800px){
+  h1{
+    font-size: 30px;
+  }
+  .titular-inicio{
+    margin-top: 147px;
+  }
+  .discografia-inicio .contenedor-inicio{
+    flex-direction: column;
+  }
+  .discografia-inicio .foto-inicio{
+    margin-bottom: -25px;
+  }
+  .discografia-inicio h4{
+    margin-bottom: 30px;
+  }
+  .contenedor-textos-inicio{
+    flex-direction: column;
+    margin: 30px;
+  }
+  .about-inicio h4{
+    margin-left: 70px;
+  }
+  .tour-inicio .contenedor-inicio{
+    flex-direction: column;
+  }
+  .tour-inicio .imagen-inicio{
+    width: 30%;
+    position: relative;
+    top: -40px;
+    margin-left: 30px;
+    margin-bottom: -10px;
+  }
+  .tour-inicio h4{
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .tour-inicio h2{
+    margin-left: 10px;
+  }
+  .tour-inicio p{
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+}
+.nosotros-nosotros{
+    background-image: url(../imagenes/header-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.titular-nosotros h1{
+    color: #ffffff;
+    margin-top: 167px;
+    margin-left: 170px;
+    font-size: 103px;
+}
+main p{
+    font-family: Anonymous Pro;
+}
+.contenedor-texto-nosotros{
+    display: flex;
+    padding: 30px;
+    background-color: #fffafa;
+}
+.contenedor-texto-nosotros img{
+    width: 260px;
+    margin: 30px 50px;
+}
+.contenedor-texto-nosotros p{
+    margin: 5px;
+}
+.texto-izquierda-nosotros, .texto-derecha-nosotros{
+    margin: 15px;
+    line-height: 30px;
+    width: 50%;
+}
+.fechas-nosotros{
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin-top: 50px;
+    border-bottom: 1px solid #00000048;
+}
+.numero-nosotros{
+    font-size: 30px;
+    color: #111;
+    background-color: #FAE100;
+    margin-left: 5px;
+    border-radius: 2px;
+    padding: 5px 10px;
+    line-height: 30px;
+    border-radius: 20px ;
+}
+.lugar-nosotros{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.fechas-nosotros{
+    font-size: 15px;
+}
+.h4-nosotros{
+    margin: 20px 0;
+    width: 480px;
+}
+.h6-nosotros{
+    margin: 20px 0;
+    border-bottom: 1px solid black;
+    width: 190px;
+}
+.banda-nosotros{
+    background-color: #FAE100;
+}
+.miembros-nosotros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.h4-nosotros-banda{
+    margin-left: 630px ;
+    padding-top: 20px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.h2-nosotros{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+.miembros-info-nosotros img{
+    height: 300px;
+    width: 300px;
+}
+.miembros-nosotros h4{
+    margin-top: 15px;
+    line-height: 20px;
+    margin-left: 125px;
+}
+.miembros-nosotros p{
+    margin-top: 15px;
+    line-height: 20px;
+    margin-left: 90px;
+}
+.miembros-info-nosotros{
+    margin: 20px ;
+}
+@media  (max-width: 800px) {
+    .titular-nosotros h1{
+        font-size: 90px;
+        width: 400px;
+      }
+      .contenedor-texto-nosotros{
+        flex-direction: column;
+      }
+      .miembros-nosotros{
+        grid-template-columns: 50% 50% ;
+      }
+      .contenedor-texto-nosotros {
+        display: grid;
+        padding: 30px;
+        background-color: #fffafa;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.header-contacto{
+    background-image: url(/imagenes/header-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.titular-contacto h1{
+        color: #ffffff;
+        margin-top: 167px;
+        margin-left: 170px;
+        font-size: 103px;
+        width: 450px;
+}
+.contenedor-formas-contacto{
+    background-color: #FAE100;
+    display: flex;
+    justify-content: space-around;
+}
+.contacto-izquierda{
+    margin: 30px 0;
+}
+.contacto-izquierda h3{
+    font-size: 80px;
+}
+.contacto-izquierda h4{
+    margin-left: 90px;
+    font-size: 30px;
+}
+.contacto-derecha{
+    margin: 30px 0;
+}
+.contacto-derecha h3{
+    font-size: 80px;
+}
+.contacto-derecha h4{
+    text-align: center;
+    font-size: 30px;
+}
+.formulario-contacto{
+    background-color: #000;
+    color:#fffdfd;
+}
+.formulario-contacto h2{
+    margin-left: 300px;
+    padding: 30px;
+    font-size: 50px;
+}
+.subrayado-contacto{
+    text-decoration: underline;
+}
+.form-contacto{
+    display:inline-block;
+}
+.nombre-contacto{
+    margin-left: 400px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.nombre-contacto input, .email-contacto input, .asunto-contacto input{
+    width: 500px;
+}
+.email-contacto{
+    margin-left: 414px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.asunto-contacto{
+    margin-left: 413px;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.comentarios-contacto{
+    margin-left: 405px;
+    padding-bottom: 20px ;
+}
+.boton-contacto{
+    margin-left: 408px;
+}
+.boton-contacto input{
+    background-color: #FAE100;
+    border-radius: 20px;
+    padding: 7px 10px;
+    text-align: center;
+}
