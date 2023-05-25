@@ -25,9 +25,8 @@ nav h5{
     font-family: Philosopher;
 }
 .home-inicio{
-    background-color: black;
+    background-color: #1c1c1c;
     background-image: url(/imagenes/_DSC6746.jpg);
-
     background-size: cover ;
     height: 690px;
 }
@@ -248,6 +247,7 @@ footer p{
     }
 }
 .header-pages{
+    background-color: #1c1c1c;
     background-image: url(../imagenes/header-nosotros.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,11 +426,8 @@ main p{
 .subrayado-contacto{
     text-decoration: underline;
 }
-.formulario-contacto{
-
-}
 .nombre-contacto{
-    margin-left: 400px;
+    text-align: center;
     font-size: 20px;
     padding: 20px 0;
 }
@@ -438,27 +435,29 @@ main p{
     width: 500px;
 }
 .email-contacto{
-    margin-left: 414px;
+    text-align: center;
     font-size: 20px;
     padding: 20px 0;
 }
 .asunto-contacto{
-    margin-left: 413px;
+    text-align: center;
     font-size: 20px;
     padding: 10px 0;
 }
 .comentarios-contacto{
-    margin-left: 405px;
+    text-align: center;
     padding-bottom: 20px ;
 }
 .boton-contacto{
-    margin-left: 408px;
+    margin-left: 235px;
 }
 .boton-contacto input{
     background-color: #FAE100;
-    border-radius: 20px;
     padding: 7px 10px;
     text-align: center;
+}
+.nombre-contacto input, .email-contacto input, .asunto-contacto input, .comentarios-contacto textarea{
+    background-color: #0e0e0e;
 }
 .titular-discografia h1{
     color: #ffffff;
