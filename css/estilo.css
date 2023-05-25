@@ -26,7 +26,7 @@ nav h5{
 }
 .home-inicio{
     background-color: #1c1c1c;
-    background-image: url(/imagenes/_DSC6746.jpg);
+    background-image: url(../imagenes/_DSC6746.jpg);
     background-size: cover ;
     height: 690px;
 }
@@ -272,8 +272,7 @@ main p{
     margin: 30px 10px;
 }
 .contenedor-texto-nosotros p{
-    margin: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 .texto-izquierda-nosotros, .texto-derecha-nosotros{
     margin: 15px;
@@ -419,45 +418,39 @@ main p{
     color:#fffdfd;
 }
 .formulario-contacto h2{
-    margin-left: 300px;
+    margin-left: 90px;
     padding: 30px;
     font-size: 50px;
 }
 .subrayado-contacto{
     text-decoration: underline;
 }
-.nombre-contacto{
-    text-align: center;
-    font-size: 20px;
-    padding: 20px 0;
-}
-.nombre-contacto input, .email-contacto input, .asunto-contacto input{
-    width: 500px;
-}
-.email-contacto{
-    text-align: center;
-    font-size: 20px;
-    padding: 20px 0;
-}
-.asunto-contacto{
-    text-align: center;
-    font-size: 20px;
-    padding: 10px 0;
-}
-.comentarios-contacto{
-    text-align: center;
-    padding-bottom: 20px ;
-}
-.boton-contacto{
-    margin-left: 235px;
-}
-.boton-contacto input{
-    background-color: #FAE100;
-    padding: 7px 10px;
-    text-align: center;
-}
-.nombre-contacto input, .email-contacto input, .asunto-contacto input, .comentarios-contacto textarea{
+.nye-contacto input{
     background-color: #0e0e0e;
+    padding: 5px ;
+    width: 450px;
+    margin-left:  99px;
+    margin-bottom: 20px;
+    color: #FAE100;
+}
+.asunto-contacto input{
+    background-color: #0e0e0e;
+    padding: 5px;
+    width: 1000px;
+    margin-left: 100px;
+    color: #FAE100;
+}
+.come-contacto textarea{
+    background-color: #0e0e0e;
+    color: #FAE100;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.boton-contacto-1 input{
+    background-color: #FAE100;
+    margin-left: 100px;
+    padding: 10px 20px 5px 20px;
 }
 .titular-discografia h1{
     color: #ffffff;
@@ -476,4 +469,24 @@ main p{
     font-size: 130px;
     padding: 150px 0;
     margin-left: 30px;
+}
+.contenedor-grupo1{
+    display: grid;
+    background-color: #1c1c1c;
+    grid-template-columns:  1fr;
+    grid-template-rows:  1fr;
+    gap: 50px;
+}
+.contenedor-grupo1 img{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.titulo-galeria{
+    text-align: center;
+    background-color: #FAE100;
+    padding: 10px;
+}
+.titulo-galeria h3{
+    font-size: 50px;
 }
