@@ -21,7 +21,7 @@ main .contenedor-texto-nosotros {
     width: 260px;
     margin: 30px 10px; }
   main .contenedor-texto-nosotros p {
-    padding: 10px; }
+    padding: 2px; }
   main .contenedor-texto-nosotros .texto-izquierda-nosotros, main .contenedor-texto-nosotros .texto-derecha-nosotros {
     margin: 15px;
     line-height: 30px;
@@ -88,7 +88,7 @@ main .miembros-nosotros {
   main .miembros-nosotros .miembros-info-nosotros {
     margin: 20px; }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .header-pages h5 {
     font-size: 25px; }
   .header-pages .titular-nosotros h1 {
@@ -164,7 +164,7 @@ input {
     margin-left: 100px;
     padding: 10px 20px 5px 20px; }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .header-pages h5 {
     font-size: 25px; }
   .header-pages .titular-contacto h1 {
@@ -215,7 +215,7 @@ input {
   .proximamente-discografia p {
     font-size: 100px; }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .titular-discografia h1 {
     font-size: 50px;
     margin-left: 90px; }
@@ -280,7 +280,7 @@ input {
     height: 700px;
     margin-bottom: 50px; }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .header-pages .titular-galeria h1 {
     font-size: 50px;
     margin-left: 90px; }
@@ -485,7 +485,7 @@ footer {
     font-size: 15px;
     border-bottom: 1px solid #ccc; }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .my-class .nav-item a {
     color: #ffffff;
     margin: 12px;

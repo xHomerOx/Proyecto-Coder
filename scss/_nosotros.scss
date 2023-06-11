@@ -27,7 +27,7 @@ main{
                 margin: 30px 10px
             }
                 p{ 
-                    padding: 10px;}  
+                    padding: 2px;}  
 
                 .texto-izquierda-nosotros, .texto-derecha-nosotros{
                     margin: 15px;
@@ -110,7 +110,7 @@ main{
             }
  } 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .header-pages{
         h5{
             font-size: 25px ;
