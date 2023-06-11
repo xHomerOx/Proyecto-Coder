@@ -1,0 +1,108 @@
+.header-pages{
+    .titular-galeria{
+        h1{
+        color: $color-tercero ;
+        margin-top: 167px;
+        margin-left: 170px;
+        font-size: 103px;
+        width: 450px;
+    }
+    }
+}
+.contenedor-grupo1{
+        display: grid;
+        background-color: $color-secundario;
+        grid-template-columns:  1fr;
+        grid-template-rows:  1fr;
+        gap: 50px;
+    .titulo-galeria-cg1{
+        h3{
+            color: black;
+            font-size: 50px;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
+            text-decoration: underline;
+            width: 400px;
+            margin-left: 500px
+            }
+    }
+    img{
+        width: 500px;
+        height: 900px;
+        margin-bottom: 50px;
+        transition: all 3s;
+        &:hover{
+            width: 550px;
+            transform: scale(1.1);
+        }
+        }
+}
+.contenedor-grupo2{
+    display: grid;
+    background-color: $color-secundario;
+    grid-template-columns:  1fr;
+    grid-template-rows:  1fr;
+    gap: 50px;
+    .titulo-galeria-cg2{
+        h3{
+            color: black;
+            font-size: 50px;
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 50px;
+            width: 400px;
+            margin-left: 500px;
+            background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
+            text-decoration: underline;
+        }
+    }
+    img{
+        width: 400px;
+        height: 700px;
+        margin-bottom: 50px;
+        }
+}
+@media (max-width:600px){
+    .header-pages{
+        .titular-galeria{
+            h1{
+            font-size: 50px;
+            margin-left: 90px;
+         }
+        }
+    }
+    .contenedor-grupo1{
+        .titulo-galeria-cg1{
+            h3{
+                margin-left: 90px;
+                font-size: 30px;
+                color: black;
+                background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
+                text-decoration: underline;
+                border-radius: 10px;
+                width: 400px;
+                
+            }
+         }
+        }
+    .contenedor-grupo2{
+        .titulo-galeria-cg2{
+            h3{
+                margin-left: 90px;
+                font-size: 30px;
+                color: black;
+                background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
+                text-decoration: underline;
+                border-radius: 10px;
+                width: 400px;
+            }
+        }
+    }   
+
+    }
+
+

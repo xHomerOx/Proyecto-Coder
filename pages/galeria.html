@@ -21,7 +21,7 @@
         <nav class=" navbar navbar-expand-lg">
             <div class=" container-fluid ">
              <h5>Flores Gump</h5>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -45,7 +45,7 @@
               </div>
             </div>
           </nav>
-          <div class="titular-contacto">
+          <div class="titular-galeria">
             <h1>
               Galeria 
             </h1>
@@ -53,35 +53,77 @@
     </header>
     <main>
       <section class="contenedor-grupo1">
-        <div class="titulo-galeria">
+        <div class="titulo-galeria-cg1">
           <h3 >
             Pétalos del Sol
           </h3>
         </div>
-      <div>
-        <img src="../imagenes/angie-nosotros-banda.jpg" alt="Angie">
-        <img src="../imagenes/Juan-nosotros-banda.jpg" alt="Juan">
-        <img src="../imagenes/dari-nosotros-banda.jpg" alt="Dari">
-        <img src="../imagenes/pepe-nosotros-banda.jpg" alt="Pepe">
-        <img src="../imagenes/Ana-nosotros-banda.jpg" alt="Ana">
-        <img src="../imagenes/ana-foto.jpg" alt="ana2">
-        <img src="../imagenes/F.G-162.jpg" alt="publico">
-        <img src="../imagenes/F.G-42.jpg" alt="pepe y ana">
-      </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade my-class-cr">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imagenes/angie-nosotros-banda.jpg" class="d-block w-100" alt="Angie">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/Juan-nosotros-banda.jpg" class="d-block w-100" alt="Juan">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/dari-nosotros-banda.jpg" class="d-block w-100" alt="Dari">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/pepe-nosotros-banda.jpg" class="d-block w-100" alt="pepe">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/ana-foto.jpg" class="d-block w-100" alt="ana2">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/F.G-162.jpg" class="d-block w-100" alt="publico">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/F.G-42.jpg" class="d-block w-100" alt="pepe y ana">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
     </section>
-    <section class="contenedor-grupo1">
-        <div class="titulo-galeria">
+    <section class="contenedor-grupo2">
+        <div class="titulo-galeria-cg2">
         <h3>
           Studio Theater
         </h3>
       </div>
-        <div>
-          <img src="../imagenes/FG en terraza.jpeg" alt="banda">
-          <img src="../imagenes/Flores studio.jpg" alt="banda-studio1">
-          <img src="../imagenes/Juan Flores.jpg" alt="Juan-flores">
-          <img src="../imagenes/Studio FG.jpeg" alt="banda-studio">
-          <img src="../imagenes/Studio FG.jpeg" alt="banda-studio-2">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imagenes/banda-studio.jpg" class="d-block w-100" alt="fg-studio">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagenes/FG en terraza.jpeg" class="d-block w-100" alt="fg-terraza">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagenes/Flores studio.jpg" class="d-block w-100" alt="fg-studio2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </section>
     </main>
     <footer>

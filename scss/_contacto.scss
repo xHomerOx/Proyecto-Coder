@@ -1,0 +1,148 @@
+.titular-contacto{
+    h1{
+        color: $color-tercero ;
+        margin-top: 167px;
+        margin-left: 170px;
+        font-size: 103px;
+        width: 450px;
+    }
+}
+.contenedor-formas-contacto{
+    background-color: $color-principal;
+    display: flex;
+    justify-content: space-around;
+
+        .contacto-izquierda{
+            margin: 30px 0;
+
+                h3{
+                    font-size: 80px;
+                }
+                    h4{
+                        font-size: 30px;
+                        margin-left: 90px;
+                    }
+        }
+        
+        .contacto-derecha{
+            margin: 30px 0;
+            h3{
+                font-size: 80px;
+            }
+            h4{
+                text-align: center;
+                font-size: 30px;
+            }
+        }
+}
+.formulario-contacto{
+    background-color: $color-secundario;
+    color:#fffdfd;
+
+        h2{
+            margin-left: 50px;
+            padding: 30px;
+            font-size: 50px;
+
+                span{
+                    text-decoration: underline;
+                }
+        }
+    .nye-contacto{
+            input{
+                background-color: $color-secundario;
+                padding: 5px ;
+                color: $color-principal;
+                margin-bottom: 20px;
+                width: 450px;
+                margin-left: 97px ;
+            }
+        }
+    .asunto-contacto
+        input{
+            background-color: $color-secundario;
+            padding: 5px;
+            width: 1000px;
+            margin-left: 100px;
+            color: $color-principal;
+        }
+    .come-contacto{
+        textarea{
+            background-color: $color-secundario;
+            color: $color-principal;
+            margin-left: 100px;
+            margin-bottom: 20px;
+            padding: 5px;
+        }
+    }
+    .boton-contacto-1{
+        input{
+        background-color: $color-principal;
+        margin-left: 100px;
+        padding: 10px 20px 5px 20px;
+        }
+    }
+}
+@media (max-width: 600px ) {
+    .header-pages{
+        h5{
+            font-size: 25px;
+        }
+        .titular-contacto{
+            h1{
+                font-size: 50px;
+                margin-left: 90px;
+            }
+        }
+    }
+    .contenedor-formas-contacto{
+        display: flex;
+        flex-direction: column;
+        .contacto-izquierda{
+            h3{
+                font-size: 40px;
+                text-align: center;
+            }
+            h4{
+                font-size: 29px;
+                margin-left: 120px;
+            }
+
+        }
+        .contacto-derecha{
+            h3{
+                font-size: 40px;
+                text-align: center;
+            }
+            h4{
+                font-size: 29px;
+            }
+        }
+    }
+    .formulario-contacto{
+        h2{
+            font-size: 30px;
+        }
+        .nye-contacto{
+            input{
+            width: 300px;
+        }
+        }
+        .asunto-contacto{
+            input{
+                width: 300px;
+            }
+        }
+        .come-contacto{
+            textarea{
+                width: 300px;
+            }
+        }
+        .boton-contacto-1{
+            input{
+                width: 300px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,298 @@
+$color-principal: #FAE100;
+$color-secundario: #1c1c1c;
+$color-tercero: #fffafa;
+$color-cuarto: #0e0e0e;
+
+@import "nosotros.scss";
+@import "contacto.scss";
+@import "discografia.scss";
+@import "galeria.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Philosopher;
+    cursor: url(../imagenes/cursor.png), auto;
+}
+nav{
+    h5{
+    background-color: #00000086;
+    color: $color-principal;
+    font-size: 30px;}
+}
+
+.my-class{
+    .nav-item{
+        a{
+        color: #ffffff;
+        margin: 12px;
+        font-size: 20px;
+        &:hover{
+            color: black;
+            background-color: $color-principal;
+            border-radius: 5px;
+            cursor: url(../imagenes/puntero.png), auto;
+        }
+    }
+}
+}
+.home-inicio{
+    background-color: $color-secundario;
+    background-image: url(../imagenes/banda-studio.jpg);
+    background-size: cover ;
+    height: 690px;
+}
+.titular-inicio{
+    margin: 30px ;
+    margin-top: 20vh ;
+    color: #fff;
+        h1{
+            font-size: 50px;
+            margin-top: 190px;
+            margin-bottom: 25px;
+            margin-left: 30px;
+            background-color: #0e0d0d57;
+            width: 70%;
+            padding: 10px;
+
+                .amarillo-inicio{
+                    color: $color-principal;
+                    border-radius: 9px;}           
+        }
+}
+.boton-inicio a{
+    margin-left: 30px;
+    &:hover{
+        cursor: url(../imagenes/puntero.png), auto;
+    }
+}
+.boton-inicio{
+    a{
+    color: #111;
+    background-color: $color-principal;
+    text-decoration: none;
+    padding: 8px 15px;
+    line-height: 50px;
+    border-radius: 20px ;}
+}
+.discografia-inicio{
+    background-color: $color-secundario;
+    color: #fff;
+    padding: 60px 15px;
+        .contenedor-inicio{
+            display: flex;
+            align-items: center;}
+            h4{
+                color: $color-principal;
+                border: 1px gray solid;
+                font-size: 20px;
+                width: 110px;
+                padding: 5px;
+                border-radius: 10px;}  
+           .texto-inicio{
+                    width: 50%;
+                    margin-left: 70px;}  
+            p{
+                font-size: 16px;
+                margin: 2px;
+                line-height: 30px;
+                margin-bottom: 20px;}
+           .foto-inicio{
+                    width: 50%;
+                    margin: 30px;}
+            a{
+                color: #111;
+                background-color: $color-principal;
+                text-decoration: none;
+                padding: 8px 15px;
+                line-height: 50px;
+                border-radius: 20px ;
+                &:hover{
+                    cursor: url(../imagenes/puntero.png), auto;
+                }
+            }        
+    }  
+.about-inicio{
+        margin: 30px 20px;
+        .contenedor-textos-inicio{
+            display: flex;
+            padding: 40px;
+            margin: 0 40px;}
+            .texto-izquierda-inicio{
+                p{
+                width: 80%;
+                margin-bottom: 50px;
+                }
+            }
+        p{
+        font-family: Anonymous Pro;
+        line-height: 40px;}    
+        .negro-inicio{
+        background-color: #6d6c6c; 
+        }
+        h4{
+                color: #000;
+                border: 1px solid #000;
+                text-align: center;
+                font-size: 20px;
+                padding: 5px;
+                border-radius: 10px;
+                width: 99px;
+                margin-left: 70px;}
+    }
+        .tour-inicio{
+            background-color:$color-principal;
+            padding: 60px 0;
+            .contenedor-inicio{
+                display: flex;
+                justify-content: space-around;}
+            img{
+                width: 100%;}
+            .texto-inicio{
+                width: 50%;} 
+            .imagen-inicio{
+                width: 30%;
+                position: relative;
+                top: -150px;}  
+            h2{
+                    padding: 20px 0;
+                }
+            p{
+                padding-bottom: 100px;
+                font-size: 18px;
+                line-height: 40px;
+            }    
+            h4{
+                color: #000;
+                border: 1px solid #000;
+                text-align: center;
+                width: 100px;
+                border-radius: 10px;
+                font-size: 20px}               
+       }
+.fechas-inicio{
+    display: flex;
+    justify-content: space-around;
+    width: 78%;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #cccccc93;
+    padding-bottom: 30px;
+    font-size: 35px;
+    .numero-inicio{
+        font-size: 33px;
+    }
+    h3{
+        font-size: 20px;
+        margin: 0;}
+    p{
+        font-size: 20px;
+        margin: 0;}
+    a{
+        font-size: 20px;
+        background-color: #fff;
+        color: #111;
+        padding: 15px 30px}
+}       
+footer{
+    text-align: center;
+    padding: 20px;
+    svg{
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        border-radius: 50%;
+        &:hover{
+            cursor: url(../imagenes/puntero.png), auto;
+        }
+    }
+    p{
+        margin-top: 6px;
+        font-size: 15px;
+        border-bottom: 1px solid #ccc}
+}
+@media (max-width: 600px) {
+    .my-class{
+        .nav-item{
+            a{
+                color: #ffffff;
+                margin: 12px;
+                font-size: 20px;
+                background-color: #000;
+                width: 110px;
+                text-align: center;
+            }
+        }
+    }
+.home-inicio{
+        h5{
+            font-size: 25px;}
+        .titular-inicio{
+            margin-top: 147px;
+        h1{
+            font-size: 2em;
+        }}
+    }
+.discografia-inicio{
+        .contenedor-inicio{
+            flex-direction: column;
+            margin-left: 10px;
+            padding: 20px;
+        p{
+            font-size: 20px;}
+        }
+        .foto-inicio{
+            margin-bottom: -25px;}
+        h4{
+            margin-bottom: 30px;}  
+     }
+.about-inicio{
+        .contenedor-textos-inicio{
+            flex-direction: column;
+            margin: 30px;
+            padding: 20px;
+            line-height: 30px;}
+        h4{
+            margin-left: 200px;}
+        }
+.tour-inicio{
+        .contenedor-inicio{
+            flex-direction: column;
+            margin-left: 100px;}
+        .imagen-inicio{
+            width: 40%;
+            position: relative;
+            top: -40px;
+            margin-bottom: -10px;}
+        h4{
+            margin-top: 0px;
+            margin-bottom: 20px;}
+        h2{
+            margin-left: 10px;
+            line-height: 30px;}
+        p{        
+            margin-left: 10px;
+            margin-bottom: 50px;
+            line-height: 40px;}
+        .fechas-inicio{        
+                margin: 50px;
+            p{
+                margin: 0 20px;
+                padding: 0 10px;
+                font-size: 15px;
+            }
+            h3{
+                margin: 0 20px;
+                padding: 0 10px;
+                font-size: 20px;
+            }
+        }
+        a{
+            font-size: 15px;
+        }
+    }
+}    
