@@ -503,12 +503,16 @@ footer {
     flex-direction: column;
     margin-left: 3px;
     padding: 20px; }
+    .discografia-inicio .contenedor-inicio .texto-inicio {
+      margin-left: auto;
+      margin-right: auto; }
     .discografia-inicio .contenedor-inicio p {
       font-size: 20px;
       width: 300px;
       margin-right: 30px; }
   .discografia-inicio .foto-inicio {
-    margin-bottom: -25px; }
+    margin-bottom: -25px;
+    width: 100%; }
   .discografia-inicio h4 {
     margin-bottom: 30px; }
   .about-inicio .contenedor-textos-inicio {
@@ -525,7 +529,9 @@ footer {
     width: 40%;
     position: relative;
     top: -40px;
-    margin-bottom: -10px; }
+    margin-bottom: -10px;
+    margin-left: auto;
+    margin-right: auto; }
   .tour-inicio h4 {
     margin-top: 0px;
     margin-bottom: 20px; }
@@ -536,6 +542,8 @@ footer {
     margin-left: 10px;
     margin-bottom: 50px;
     line-height: 33px; }
+  .tour-inicio .fof-inicio {
+    overflow: auto; }
   .tour-inicio .fechas-inicio {
     margin: 50px; }
     .tour-inicio .fechas-inicio p {
