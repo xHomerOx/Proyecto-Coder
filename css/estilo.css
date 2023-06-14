@@ -289,7 +289,7 @@ main .miembros-nosotros .miembros-info-nosotros {
     background-image: linear-gradient(to right, #FAE100, #fffafa, #981cda);
     text-decoration: underline;
     width: 400px;
-    margin-left: 500px;
+    margin: 40px auto;
 }
 .contenedor-grupo1 img {
     width: 500px;
